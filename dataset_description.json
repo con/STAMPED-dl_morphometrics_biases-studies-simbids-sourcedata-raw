@@ -1,0 +1,24 @@
+{
+  "Name": "STAMPED three-subject SimBIDS qualification fixture",
+  "BIDSVersion": "1.11.1",
+  "DatasetType": "raw",
+  "License": "MIT",
+  "Authors": [
+    "STAMPED-dl_morphometrics_biases contributors"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "SimBIDS",
+      "Version": "0.1.dev27+g1a8efa3",
+      "Container": {
+        "Type": "apptainer",
+        "URI": "docker://pennlinc/simbids@sha256:3646a27a974f006585201fb1f5237e9c61abc704903c6c282878be81e86687ee"
+      }
+    },
+    {
+      "Name": "STAMPED SimBIDS NIfTI materializer",
+      "Version": "1.0.0",
+      "Description": "Replaced SimBIDS zero-byte skeleton placeholders with deterministic valid 2x2x2 NIfTI images."
+    }
+  ]
+}
